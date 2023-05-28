@@ -30,4 +30,5 @@ The server and client are currently set to run on localhost:3090. This can be ch
 ## Note
 
 This repository include a build executable for Linux of the files server and chat.
+
 This is a simple project to learn more about Golang. It is not intended to be used in production.
