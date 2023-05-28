@@ -14,7 +14,7 @@ To run the server, run the following command:
 go run serverMain/server.go
 ```
 
-The server and client are currently set to run on localhost:3090. This can be changed with the flags '--host=<your_host> --port=<your_port>'.
+The server and client are currently set to run on localhost:3090. This can be changed with the flags `--host=<your_host> --port=<your_port>`.
 This way you can run many server on a remote machine and connect to it with the client.
 
 ### Client
@@ -25,8 +25,9 @@ To run the client, run the following command:
 go run chatGo/chat.go
 ```
 
-The server and client are currently set to run on localhost:3090. This can be changed with the flags '--host=<your_host> --port=<your_port>' to connect with a especific server.
+The server and client are currently set to run on localhost:3090. This can be changed with the flags `--host=<your_host> --port=<your_port>` to connect with a especific server.
 
 ## Note
 
+This repository include a build executable for Linux of the files server and chat.
 This is a simple project to learn more about Golang. It is not intended to be used in production.
